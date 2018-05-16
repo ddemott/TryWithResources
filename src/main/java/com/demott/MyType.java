@@ -10,7 +10,7 @@ import java.io.Serializable;
  * 
  *         This shows an example of how the try with resources works. 
  *         
- *         try (ObjectOutputStream outStream = new ObjectOutputStream(new FileOutputStream("myType.ser")))
+ *         try (ObjectOutputStream outStream = new ObjectOutputStream(new FileOutputStream("myType.ser"))){...}
  *         
  *         With this syntax you no longer need to close your resources when you are done
  *         with it. As soon as you break scope, the resource is automatically
